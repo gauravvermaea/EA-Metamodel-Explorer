@@ -1,0 +1,2 @@
+1. Identify an open source email server that can be used for dev
+2. This email server should be docker based

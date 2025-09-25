@@ -1,0 +1,3 @@
+1. Find a Queue for distributed processing
+2. This Queue should be usable with Postgres DB as a backing store
+3. This queue should work with Python

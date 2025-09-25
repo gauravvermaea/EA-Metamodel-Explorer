@@ -1,0 +1,2 @@
+1. Identify Redis as a cached
+2. is there a usecase for cache

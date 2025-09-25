@@ -1,0 +1,2 @@
+1. How do we backup DB
+2. How can this be scheduled
