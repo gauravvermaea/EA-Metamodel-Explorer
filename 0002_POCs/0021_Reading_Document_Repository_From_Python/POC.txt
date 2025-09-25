@@ -1,0 +1,4 @@
+1. Explore the API's of the Document managment system
+2. Ability to find documents based on search criteria
+3. Downloading 
+4. How security will work

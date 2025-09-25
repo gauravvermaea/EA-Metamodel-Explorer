@@ -1,0 +1,2 @@
+1. Create a Custom Stensil
+2. Add custom validations like range, number, text, regx validation

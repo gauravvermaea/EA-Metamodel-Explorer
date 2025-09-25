@@ -1,0 +1,8 @@
+1. Create a Repository in Docker
+2. Explore features and API
+3. Decide best way for project
+4. Explore authentication options
+5. Can we have our api be authentication probided for this
+6. Can we have versions
+7. Can we label
+8. Can we have custom tags

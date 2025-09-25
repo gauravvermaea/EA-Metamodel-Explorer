@@ -1,0 +1,5 @@
+1. Can we have a docker container that on first load creates some seed data. 
+2. Can the data file be passed as a parameter
+3. Can a user name and password be passed as a parameter
+4. Can we pass any other attributes
+5. Can these be populated into a table

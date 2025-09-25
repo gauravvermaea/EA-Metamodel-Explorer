@@ -1,0 +1,2 @@
+1. In Upload to a DBbuild a generic code that will use denormalised data in an excel and upload it into normalised structure
+2. Explore if this can become a framework

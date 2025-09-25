@@ -1,0 +1,3 @@
+1. Can the color of a stencil change based on attribute value
+2. Can the color of a stencil changed based on attribute range
+3. Can the color of stencil change based on attribute as a gradient

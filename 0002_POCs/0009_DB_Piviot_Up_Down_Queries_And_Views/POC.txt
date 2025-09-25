@@ -1,0 +1,4 @@
+1. In case of Postgres have a table with key and values
+2. Write a query to make the keys columns
+3. Create a View to demonstrate this
+4. Do the same with a Materialised View

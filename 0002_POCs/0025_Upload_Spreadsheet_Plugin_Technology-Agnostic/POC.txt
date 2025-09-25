@@ -1,0 +1,1 @@
+1. Come up with a technology independent plugin or other approch to upload data from multiple sheets to an api.

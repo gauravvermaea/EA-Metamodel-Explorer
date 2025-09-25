@@ -1,0 +1,2 @@
+1. Can we add custom icons to a stencil based on attributes
+2. Can such attributes be available on right click

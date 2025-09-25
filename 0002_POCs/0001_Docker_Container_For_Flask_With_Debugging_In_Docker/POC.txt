@@ -1,0 +1,6 @@
+1. Create a Flask API inside a docker container
+2. The flask API should be debugged from the container
+3. The container should be hosted on a linux WSL
+4. The api should be coded in VS code on host machine running WSL
+5. Create a GET and a POST api
+6. No DB access needed

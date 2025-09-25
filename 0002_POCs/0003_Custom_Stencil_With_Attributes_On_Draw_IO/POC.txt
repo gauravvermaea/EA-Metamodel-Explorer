@@ -1,0 +1,3 @@
+1. Create Custom Draw.io Stencil
+2. The Stencil must have custom attributes
+3. We should be able to mark attributes optional or mandatory

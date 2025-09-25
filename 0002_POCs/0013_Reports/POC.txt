@@ -1,0 +1,5 @@
+1. Create Reports from table
+2. Create Reports from View
+3. Make List Reports
+4. Make Pivots
+5. Create a Heatmap report

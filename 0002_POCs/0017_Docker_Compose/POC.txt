@@ -1,0 +1,3 @@
+1. Understand how docker networking works
+2. Create a docker compose file with 3 docker containers that can ping each other
+3. Creat a docker compose file with Postgres DB, Web API and have the api fetch data from DB

@@ -1,0 +1,1 @@
+1. Explore how docker files can be put on an external file system on host machine to save DB or files

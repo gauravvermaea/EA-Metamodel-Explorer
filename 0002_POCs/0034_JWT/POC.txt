@@ -1,0 +1,2 @@
+1. Explore JWT for authorization so that we can have a common mechanism once the user is authenticated
+2. Explore can we use this JWT for the document management system

@@ -1,0 +1,3 @@
+1. Create a Draw. io plugin
+2. Document how to install It
+3. The plugin should ask for a URL and post the content of the file

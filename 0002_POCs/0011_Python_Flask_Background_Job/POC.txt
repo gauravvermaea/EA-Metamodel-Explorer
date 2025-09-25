@@ -1,0 +1,4 @@
+1. Explore the best way to Perform a background long running task in python
+2. How will this scale out
+3. How will this work with error and retry
+4. Look at job tables stcuture etc to report status etc

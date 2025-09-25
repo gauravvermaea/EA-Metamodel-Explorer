@@ -1,0 +1,1 @@
+1. In Postgres can we create data in tables and create dynamic views based on user ask?
