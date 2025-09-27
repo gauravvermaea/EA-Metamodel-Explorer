@@ -1,0 +1,3 @@
+Create the DB as per meta model and populate 3-4 entities, attributes and relationships.
+
+Create Views for them and prove that data can be inserted and retrieved as needed
