@@ -1,0 +1,8 @@
+Create Docker Commands for
+
+1. Document Management System with file on local machine
+2. Database with file on local machine
+3. PGAdmin
+4. Python Container 
+
+These will be used for Dev work.
