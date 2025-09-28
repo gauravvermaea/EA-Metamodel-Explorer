@@ -3,3 +3,10 @@
 3. Make List Reports
 4. Make Pivots
 5. Create a Heatmap report
+
+The report should be in a docker container
+Explore if reports can be authenticated using - user name password, Entra, google custom prpviders
+
+Check if there are dependency views
+Check for graphs and charts
+Create a heat map

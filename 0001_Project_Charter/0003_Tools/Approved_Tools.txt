@@ -6,13 +6,14 @@
 6. Python
 7. CSV
 8. Draw.IO
-9. Spreadsheet????
-10. Redi???
-11. nginx????
-12. email????
-13. React????
-14. HAProxy????
-15. DMS????
-16. ELK???
+9. Spreadsheet - Libre Office
+10. Redis 
+11. nginx
+12. email- Docker Mailserver (DMS)
+13. React
+14. HAProxy
+15. DMS - Mayan EDMS
+16. ELK
 17. Kubernetis
 18. Docker compose
+29. Reports - SupersetS
