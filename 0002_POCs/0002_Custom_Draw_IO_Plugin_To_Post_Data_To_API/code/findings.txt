@@ -1,0 +1,22 @@
+1. Creating a new plugin menu
+
+1.1 Create a file myPlugin.js
+1.2 Add this code to it
+
+    Draw.loadPlugin(function(ui) {
+        // Your plugin logic here
+        // Example: Add a custom menu item
+        ui.actions.addAction('myPlugin.doSomething', function() {
+            alert('My plugin is doing something!');
+        });
+        ui.menus.addMenuItems(ui.menubar.extrasMenu, ['myPlugin.doSomething']);
+    });
+
+
+2. execute     draw.io.exe --enable-plugins
+
+3. Extras > Plugin load the plugin
+
+4. Restart draw.io.exe with --enable-plugins
+
+5. Delete plugin File from C:\Users\<User Name>\AppData\Roaming\draw.io\plugins
