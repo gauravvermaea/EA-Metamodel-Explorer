@@ -1,0 +1,27 @@
+
+-- create
+CREATE TABLE EMPLOYEE (
+  empId INTEGER PRIMARY KEY,
+  name TEXT NOT NULL,
+  dept TEXT NOT NULL
+);
+
+-- insert
+INSERT INTO EMPLOYEE VALUES (0001, 'Clark', 'Sales');
+INSERT INTO EMPLOYEE VALUES (0002, 'Dave', 'Accounting');
+INSERT INTO EMPLOYEE VALUES (0003, 'Ava', 'Sales');
+
+    
+  CREATE OR REPLACE FUNCTION create_and_populate_temp_table(table_name TEXT, query_string TEXT)
+  RETURNS VOID
+  LANGUAGE plpgsql AS $$
+  BEGIN
+      EXECUTE format('CREATE TEMPORARY TABLE %I AS %s', table_name, query_string);
+  END;
+  $$;
+
+  -- Usage
+  SELECT create_and_populate_temp_table('my_temp_data_1', 'SELECT * FROM EMPLOYEE');
+  
+  SELECT create_and_populate_temp_table('my_temp_data_2', 'SELECT * FROM EMPLOYEE');
+  SELECT * FROM my_temp_data_1, my_temp_data_2;
