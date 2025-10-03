@@ -1,4 +1,4 @@
-FROM python:3.6 as base
+FROM python:3.13.7 as base
 # Base image to be reused
 LABEL maintainer "Thiago Pacheco <hi@pacheco.io>"
 RUN apt-get update
