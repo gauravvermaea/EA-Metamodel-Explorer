@@ -68,7 +68,7 @@ Insert Into Attributes Values(15,4,4,'Fin Report Description');
 Insert Into Attributes Values(16,4,5,'Fin Report Owner');
 
 
-CREATE OR REPLACE FUNCTION create_and_populate_temp_table(table_name TEXT)
+CREATE OR REPLACE FUNCTION create_and_populate_temp_table_all(table_name TEXT)
 RETURNS VOID
 LANGUAGE plpgsql AS $$
 DECLARE
@@ -139,6 +139,6 @@ END;
 $$;
 
 -- Usage
-SELECT create_and_populate_temp_table('my_temp_data_2');
+SELECT create_and_populate_temp_table_all('my_temp_data_2');
 
 Select * From my_temp_data_2;  
