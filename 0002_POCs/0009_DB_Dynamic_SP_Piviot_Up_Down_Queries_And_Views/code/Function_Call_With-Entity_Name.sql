@@ -68,7 +68,7 @@ Insert Into Attributes Values(15,4,4,'Fin Report Description');
 Insert Into Attributes Values(16,4,5,'Fin Report Owner');
 
 
-CREATE OR REPLACE FUNCTION create_and_populate_temp_table(table_name TEXT, entity_type_to_be_fetched TEXT)
+CREATE OR REPLACE FUNCTION create_and_populate_temp_table(table_name TEXT)
 RETURNS VOID
 LANGUAGE plpgsql AS $$
 DECLARE
@@ -92,8 +92,7 @@ BEGIN
     Where Entity_Types.Id  = Entity_Attribute_Types.Entity_Type_Id
     and Entities.Entity_Type_Id = Entity_Types.Id
     and Attributes.Entity_Id = Entities.Id
-    and Attributes.Entity_Attribute_Id = Entity_Attribute_Types.Id
-    and Entity_Types.EntityTypeName = entity_type_to_be_fetched;
+    and Attributes.Entity_Attribute_Id = Entity_Attribute_Types.Id;
     
      Create Temporary Table my_temp_data_1
     (
@@ -140,6 +139,6 @@ END;
 $$;
 
 -- Usage
-SELECT create_and_populate_temp_table('my_temp_data_2','Capability');
+SELECT create_and_populate_temp_table('my_temp_data_2');
 
-Select * From my_temp_data_2 where entity_name = 'Finance';  
+Select * From my_temp_data_2;  
