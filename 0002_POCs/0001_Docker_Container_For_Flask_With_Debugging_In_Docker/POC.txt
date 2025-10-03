@@ -4,3 +4,8 @@
 4. The api should be coded in VS code on host machine running WSL
 5. Create a GET and a POST api
 6. No DB access needed
+
+
+
+Please mount this folder on vs code to work
+The launch.json has been modified to have the path name which can be fixed by mounting one level deep
