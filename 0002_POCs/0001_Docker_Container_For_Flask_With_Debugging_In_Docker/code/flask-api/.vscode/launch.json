@@ -8,7 +8,7 @@
       "host": "0.0.0.0",
       "pathMappings": [
         {
-          "localRoot": "${workspaceFolder}/flask-api",
+          "localRoot": "${workspaceFolder}",
           "remoteRoot": "/usr/src/app"
         }
       ]

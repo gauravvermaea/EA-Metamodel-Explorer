@@ -1,1 +1,3 @@
 1. Explore the best way to have a spreadsheet with more than one tab to upload data to DB in a python script
+2. Find a way to then upload in an arbitrary structure with transforms
+3. What will happen if the column for entity and its attributes alraey exist?
