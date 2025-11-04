@@ -1,3 +1,10 @@
 1. Create DB for user and roles
 2. Authenticate and Authorize user to do jobs based on It
 3. The user should have access to valid data 
+
+
+KeyCloak - https://www.keycloak.org/getting-started/getting-started-docker
+
+docker run -p 8090:8080 -p 8943:8443 -p 9000:9000 -e KC_BOOTSTRAP_ADMIN_USERNAME=admin -e KC_BOOTSTRAP_ADMIN_PASSWORD=admin keycloak/keycloak:latest  start-dev
+
+http://localhost:8090/realms/poc/account
