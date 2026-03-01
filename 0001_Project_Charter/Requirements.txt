@@ -1,0 +1,37 @@
+1. Login
+2. Assign Model in role
+3. Admin - Create Model
+4. Admin - Copy Model
+5. Admin - Add entity
+6. Admin - Add Attribute
+7. Admin - Assign Attribute to Entity
+8. Admin - Create Relationship
+9. Admin - Add Attribute to Relationship
+10. Create Entity
+11. Create Relationship
+12. Tag
+13. Admin - Copy Model with Content
+14. Merge Models
+15. Reports?
+16. Download Template
+17. Download Model Data
+18. Upload Data From Template
+19. Upload Full Model Data
+
+UI
+1. Setup
+2. Create Model - Empty, Copy Model Template, Copy Model with Data
+3. Add Entity Types 
+4. Add Attribute Types
+5. Add attributes to Entity
+6. Add relation shipt types
+7. Add attribute to relations
+8. Download tempate
+9. Uplodad Data
+10. Tag
+11. Rollback to version
+12. Branch
+13. Upload data from Diagram
+14. Reports
+
++K0Qdwul*Et;cK0=
